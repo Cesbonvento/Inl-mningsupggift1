@@ -4,7 +4,7 @@
 package inlämningsuppgift1;
 
 /**
- *
+ * Abstraktklass som beskriver ett djur
  * @author Bazgir
  */
 public abstract class Djur { 

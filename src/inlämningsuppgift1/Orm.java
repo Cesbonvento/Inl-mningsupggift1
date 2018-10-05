@@ -4,10 +4,10 @@
 package inlämningsuppgift1;
 
 /**
- *
- * @author Bazgir
+ *Klass som beskriver en orm i vikt och namn
+ * @author Bazgir 
  */
-public class Orm extends Djur implements Diet{
+public class Orm extends Djur implements IDiet{
            
     public Orm(){}
     public Orm(int vikt, String namn)

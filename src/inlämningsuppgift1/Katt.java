@@ -4,10 +4,10 @@
 package inlämningsuppgift1;
 
 /**
- *
+ * Klass som beskriver en katt
  * @author Bazgir
  */
-public class Katt extends Djur implements Diet{ 
+public class Katt extends Djur implements IDiet{ 
            
     public Katt(){}
     public Katt(int vikt, String namn)

@@ -13,6 +13,7 @@ public class DietCoach {
   
     DietCoach()
     {
+            //skapar nya instanser av olika djur
             while (true) {
             Hund h1 = new Hund(5,"Sixten");
             Hund h2 = new Hund(10,"Dogge"); 
@@ -25,6 +26,7 @@ public class DietCoach {
             if (s == null){
                 break;
             }
+            //Användare matar in namn på djur som ska äta, ger ett "felmeddelande" om namn ej stämmer med djurnamnen ovan
             while (!s.equalsIgnoreCase(h1.getNamn()) && !s.equalsIgnoreCase(h2.getNamn()) && !s.equalsIgnoreCase(k1.getNamn()) && !s.equalsIgnoreCase(k2.getNamn()) && !s.equalsIgnoreCase(o.getNamn()))
             {
                 JOptionPane.showMessageDialog(null, "Va god och ange djur från hotell!");
