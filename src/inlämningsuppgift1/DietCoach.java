@@ -11,9 +11,9 @@ import javax.swing.JOptionPane;
  */
 public class DietCoach { 
   
-    public static void main(String[] args) 
+    DietCoach()
     {
-        while (true) {
+            while (true) {
             Hund h1 = new Hund(5,"Sixten");
             Hund h2 = new Hund(10,"Dogge"); 
             Katt k1 = new Katt(5, "Venus"); 
@@ -65,6 +65,11 @@ public class DietCoach {
             JOptionPane.showMessageDialog(null, djur); 
         }
          
+    }
+    
+    public static void main(String[] args) 
+    {
+        DietCoach coach = new DietCoach();
     } 
     
     
